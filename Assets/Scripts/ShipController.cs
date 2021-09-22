@@ -12,7 +12,7 @@ public class ShipController : MonoBehaviour
     public float lookRateSpeed = 90f;
     private Vector2 lookInput, screenCenter, mouseDistance; // Getting the mouse position
     /*
-    The ship will turn based on where the mouse is moving (how far and what direction it is from the center of the screen. If the mouse is to the right of the screen, the ship will turn right  )
+    The ship will turn based on where the mouse is moving (how far and what direction it is from the center of the screen. If the mouse is to the right of the screen, the ship will turn right)
     */
 
     // Start is called before the first frame update
