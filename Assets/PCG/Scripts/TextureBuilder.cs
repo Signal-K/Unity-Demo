@@ -14,7 +14,7 @@ public class TextureBuilder
             {
                 int index = (x * pixelLength) + z;
 
-                pixlels[index] = Color.Lerp(Color.black, Color.white, noiseMap[x, z]);
+                pixels[index] = Color.Lerp(Color.black, Color.white, noiseMap[x, z]);
             }
         }
 
