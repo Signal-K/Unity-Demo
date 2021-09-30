@@ -20,7 +20,7 @@ public class TextureBuilder
 
         Texture2D texture = new Texture2D(pixelLength, pixelLength); // Height & width params
         texture.wrapMode = TextureWrapMode.Clamp;
-        texture.filterMode = FilterMode.Bilinear;
+        texture.filterMode = FilterMode.Bilinear; // Change to FilterMode.Point to see individual pixels in the tilemap i.e. no filtering, showing at full sharpness
         texture.SetPixels(pixels);
         texture.Apply();
 
