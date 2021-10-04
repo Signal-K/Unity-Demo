@@ -14,6 +14,9 @@ public class TileGenerator : MonoBehaviour
     private MeshCollider tileMeshCollider;
     public int textureResolution = 1;
 
+    [Header("Terrain Types")]
+    public TerrainType[] heightTerrainTypes; // Send this to textureBuilder.cs
+
     void Start()
     {
         // Get the tile components
@@ -50,9 +53,16 @@ public class TileGenerator : MonoBehaviour
         tileMeshCollider.sharedMesh = tileMeshFilter.mesh;
 
         // Create the height map texture
-        Texture2D heightMapTexture = TextureBuilder.BuildTexture(hdHeightMap);
+        Texture2D heightMapTexture = TextureBuilder.BuildTexture(hdHeightMap, heightTerrainTypes);
 
         // Apply the height map texture to the MeshRenderer
         tileMeshRenderer.material.mainTexture = heightMapTexture;
     }
+}
+
+[System.Serializable]
+public class TerrainType {
+    [Range(0.0f, 1.0f)] // Slider inside Unity editor between 0 and 1
+    public float threshold; // Height at which this terrain type ends
+    public Color color; // Colour of the terrain type
 }

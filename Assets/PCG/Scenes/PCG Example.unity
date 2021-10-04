@@ -361,5 +361,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseSampleSize: 30
-  scale: 5
-  textureResolution: 1
+  scale: 10
+  maxHeight: 1
+  textureResolution: 32
+  heightTerrainTypes:
+  - threshold: 0.25
+    color: {r: 0.11725702, g: 0.6426369, b: 0.8018868, a: 1}
+  - threshold: 0.28
+    color: {r: 0.8867924, g: 0.88451374, b: 0.6316305, a: 1}
+  - threshold: 0.8
+    color: {r: 0.033775367, g: 0.6509434, b: 0.33406368, a: 1}
+  - threshold: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
