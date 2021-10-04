@@ -19,7 +19,7 @@ public class TextureBuilder
                 {
                     if(noiseMap[x, z] < terrainType.threshold) // If true, make terrain this colour
                     {
-                        pixels[index] = terrainType.color;
+                        //pixels[index] = terrainType.color;
                         break;
                     }
                 }

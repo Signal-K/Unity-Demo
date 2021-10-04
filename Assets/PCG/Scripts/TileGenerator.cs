@@ -64,5 +64,5 @@ public class TileGenerator : MonoBehaviour
 public class TerrainType {
     [Range(0.0f, 1.0f)] // Slider inside Unity editor between 0 and 1
     public float threshold; // Height at which this terrain type ends
-    public Color color; // Colour of the terrain type
+    public Gradient colorGradient; // Colour of the terrain type
 }
