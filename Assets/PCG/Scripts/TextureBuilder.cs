@@ -15,12 +15,14 @@ public class TextureBuilder
                 int index = (x * pixelLength) + z;
 
                 // Loop through each terrain type
-                foreach(TerrainType terrainType in terrainTypes)
-                {
-                    if(noiseMap[x, z] < terrainType.threshold) // If true, make terrain this colour
-                    {
-                        //pixels[index] = terrainType.color;
-                        break;
+                for(int t = 0; t < terrainTypes.Length; t++) {
+                    // Is this current noise map less than the terrainTypes threshold?
+                    if(noiseMap[x, z] < terrainTypes[t].threshold) { // If yes, we are within this gradient
+                        float minVal = t == 0 ? 0 : terrainTypes[t - 1].threshold;
+                        float maxVal = terrainTypes[t].threshold;
+
+                        pixels[index] = terrainTypes[t].colorGradient.Evaluate(1.0f - (maxVal - noiseMap[x, z]) / (maxVal - minVal));
+                        break; // Break out of the for loop
                     }
                 }
             }
