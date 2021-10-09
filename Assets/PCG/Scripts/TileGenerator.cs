@@ -35,7 +35,7 @@ public class TileGenerator : MonoBehaviour
 
         Vector3[] verts = tileMeshFilter.mesh.vertices; // Puts all the vertices inside this array
 
-        for(int x = 0; x < noiseSampleSize; x++)
+        for(int x = 0; x < noiseSampleSize;  x++)
         {
             for(int z = 0; z < noiseSampleSize; z++) // Get index of vertices currently on
             {
