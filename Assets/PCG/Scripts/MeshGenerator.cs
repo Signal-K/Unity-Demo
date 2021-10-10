@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Generates a mesh at the start of the game
+// Adds a mesh renderer component, etc to the game object the script is assigned to
+// MeshRenderer renders the mesh
+// MeshFilter - what type of mesh (vertices, faces)
+// MeshCollider - collider attached to the Mesh
+
 public class MeshGenerator : MonoBehaviour
 {
     [Header("Dimensions")]
