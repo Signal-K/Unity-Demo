@@ -37,3 +37,5 @@ public class TextureBuilder
         return texture;
     }
 }
+
+// Notes https://www.notion.so/skinetics/Notes-on-Procedural-Generation-df605ec522b84c4db2aaf8d37fa7f35d#88644b0714a04207baf0c4c78e77537f
