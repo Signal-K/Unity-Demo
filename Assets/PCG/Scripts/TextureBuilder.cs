@@ -39,3 +39,27 @@ public class TextureBuilder
 }
 
 // Notes https://www.notion.so/skinetics/Notes-on-Procedural-Generation-df605ec522b84c4db2aaf8d37fa7f35d#88644b0714a04207baf0c4c78e77537f
+
+/*
+https://www.notion.so/skinetics/Notes-on-Procedural-Generation-df605ec522b84c4db2aaf8d37fa7f35d#68a5490cd08d4855aa396461777d2ab9
+for(int x = 0; x < pixelLength; x++)
+{
+	for(int z = 0; z < pixelLength; z++)
+	{
+		int index = (x * pixelLength) + z;
+
+		for(int t = 0; t < terrainTypes.Length; t++)
+		{
+			if(noiseMap[x, z] < terrainTypes[t].threshold) // If true, we are in this gradient
+			{
+				// Where is this noise map value in the threshold?
+				float minVal = t == 0 ? 0 : terrainTypes[t - 1].threshold; // All the different minimum values of the thresholds of the terrain types
+				float maxVal = terrainTypes[t].threshold;
+
+				pixels[index] = terrainTypes[t].colorGradient.Evaluate(1.0f - (maxVal - noiseMap[x, z]) / (maxVal - minVal)); // Defining the colour of the pixel as a sample of the gradient based on its position compared to the terraintype threshold
+				break;
+ 			}
+		}
+	}
+}
+*/
