@@ -362,7 +362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noiseSampleSize: 30
   scale: 10
-  maxHeight: 1
+  maxHeight: 5
   textureResolution: 32
   heightTerrainTypes:
   - threshold: 0.25
