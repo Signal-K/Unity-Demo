@@ -6,7 +6,7 @@ public class NoiseGenerator
 {
     // Generates a new noise map based on parameters
     // Returns a 2d float array
-    public static float[,] GenerateNoiseMap (int noiseSampleSize, float scale, int resolution = 1)
+    public static float[,] GenerateNoiseMap (int noiseSampleSize, float scale, Wave[] waves, int resolution = 1)
     {
         float[,] noiseMap = new float[noiseSampleSize * resolution, noiseSampleSize * resolution];
 
@@ -15,10 +15,26 @@ public class NoiseGenerator
                 float samplePosX = (float)x /  scale / (float)resolution;
                 float samplePosY = (float)y / scale / (float)resolution;
 
-                noiseMap[x, y] = Mathf.PerlinNoise(samplePosX, samplePosY);
+                float noise = 0.0f;
+                float normalization = 0.0f;
+
+                foreach(Wave wave in waves) {
+                    noise += wave.amplitude * Mathf.PerlinNoise(samplePosX * wave.frequency + wave.seed, samplePosY * wave.frequency + wave.seed);
+                    normalization += wave.amplitude;
+                }
+
+                noise /= normalization; // Normalise this to the average of all the waves
+                noiseMap[x, y] = noise;
             }
         }
 
         return noiseMap;
     }
+}
+
+[System.Serializable] // Make this visible in the Unity Inspector
+public class Wave {
+    public float seed; // Provides a random offset applied to the noise map when we sample it
+    public float frequency; // Frequency of peaks in the area of the noisemap
+    public float amplitude; // Height of mountain peaks
 }

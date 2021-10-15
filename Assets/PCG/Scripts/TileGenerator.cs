@@ -17,6 +17,9 @@ public class TileGenerator : MonoBehaviour
     [Header("Terrain Types")]
     public TerrainType[] heightTerrainTypes; // Send this to textureBuilder.cs
 
+    [Header("Waves")]
+    public Wave[] waves;
+
     void Start()
     {
         // Get the tile components
