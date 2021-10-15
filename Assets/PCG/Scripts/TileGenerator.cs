@@ -20,6 +20,9 @@ public class TileGenerator : MonoBehaviour
     [Header("Waves")]
     public Wave[] waves;
 
+    [Header("Curves")]
+    public AnimationCurve heightCurve;
+
     void Start()
     {
         // Get the tile components
@@ -33,8 +36,8 @@ public class TileGenerator : MonoBehaviour
     void GenerateTile()
     {
         // Generate a new height map
-        float[,] heightMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale);
-        float[,] hdHeightMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale, textureResolution);
+        float[,] heightMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale, waves);
+        float[,] hdHeightMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale, waves, textureResolution);
 
         Vector3[] verts = tileMeshFilter.mesh.vertices; // Puts all the vertices inside this array
 
@@ -44,7 +47,7 @@ public class TileGenerator : MonoBehaviour
             {
                 int index = ( x * noiseSampleSize) + z;
 
-                verts[index].y = heightMap[x, z] * maxHeight;
+                verts[index].y = heightCurve.Evaluate(heightMap[x, z]) * maxHeight;
             }
         }
         // Apply array to the mesh
