@@ -6,14 +6,14 @@ public class NoiseGenerator
 {
     // Generates a new noise map based on parameters
     // Returns a 2d float array
-    public static float[,] GenerateNoiseMap (int noiseSampleSize, float scale, Wave[] waves, int resolution = 1)
+    public static float[,] GenerateNoiseMap (int noiseSampleSize, float scale, Wave[] waves, Vector2 offset, int resolution = 1)
     {
         float[,] noiseMap = new float[noiseSampleSize * resolution, noiseSampleSize * resolution];
 
         for(int x = 0; x < noiseSampleSize * resolution; x++) {
             for(int y = 0; y < noiseSampleSize * resolution; y++) {
-                float samplePosX = (float)x /  scale / (float)resolution;
-                float samplePosY = (float)y / scale / (float)resolution;
+                float samplePosX = ((float)x /  scale / (float)resolution) + offset.y;
+                float samplePosY = ((float)y / scale / (float)resolution) + offset.x;
 
                 float noise = 0.0f;
                 float normalization = 0.0f;

@@ -14,6 +14,11 @@ public class TileGenerator : MonoBehaviour
     private MeshCollider tileMeshCollider;
     public int textureResolution = 1;
 
+    // Hide it from the inspector
+    [HideInInspector]
+    public Vector2 offset;
+
+
     [Header("Terrain Types")]
     public TerrainType[] heightTerrainTypes; // Send this to textureBuilder.cs
 
@@ -36,8 +41,8 @@ public class TileGenerator : MonoBehaviour
     void GenerateTile()
     {
         // Generate a new height map
-        float[,] heightMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale, waves);
-        float[,] hdHeightMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale, waves, textureResolution);
+        float[,] heightMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale, waves, offset);
+        float[,] hdHeightMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale, waves, offset, textureResolution);
 
         Vector3[] verts = tileMeshFilter.mesh.vertices; // Puts all the vertices inside this array
 
