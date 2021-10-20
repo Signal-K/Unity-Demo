@@ -69,6 +69,10 @@ public class TileGenerator : MonoBehaviour
         // Apply the height map texture to the MeshRenderer
         tileMeshRenderer.material.mainTexture = heightMapTexture;
     }
+
+    float[,] GenerateHeatMap (float[,] heightMap) {
+        // Generate a uniform noise map
+    }
 }
 
 [System.Serializable]

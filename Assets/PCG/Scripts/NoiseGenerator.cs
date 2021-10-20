@@ -30,6 +30,10 @@ public class NoiseGenerator
 
         return noiseMap;
     }
+
+    public static float [,] GenerateUniformNoiseMap (int size, float vertexOffset, float maxVertexDistance) { // Noise sample size, however will not apply to the sample mesh, 1 offset required as we only have horizontal lines for the heat map
+
+    }
 }
 
 [System.Serializable] // Make this visible in the Unity Inspector
