@@ -12,6 +12,11 @@ public class TileGenerator : MonoBehaviour
     private MeshRenderer tileMeshRenderer;
     private MeshFilter tileMeshFilter;
     private MeshCollider tileMeshCollider;
+
+    // Params for UniformNoiseMap
+    private MeshGenerator meshGenerator;
+    private MapGenerator mapGenerator;
+    
     public int textureResolution = 1;
 
     // Hide it from the inspector
@@ -21,9 +26,11 @@ public class TileGenerator : MonoBehaviour
 
     [Header("Terrain Types")]
     public TerrainType[] heightTerrainTypes; // Send this to textureBuilder.cs
+    public TerrainType[] heatTerrainTypes;
 
     [Header("Waves")]
     public Wave[] waves;
+    public Wave[] heatWaves;
 
     [Header("Curves")]
     public AnimationCurve heightCurve;
@@ -34,6 +41,9 @@ public class TileGenerator : MonoBehaviour
         tileMeshRenderer = GetComponent<MeshRenderer>();
         tileMeshFilter = GetComponent<MeshFilter>();
         tileMeshCollider = GetComponent<MeshCollider>();
+
+        meshGenerator = GetComponent<MeshGenerator>();
+        mapGenerator = FindObjectOfType<MapGenerator>();
 
         GenerateTile();
     }
@@ -67,11 +77,32 @@ public class TileGenerator : MonoBehaviour
         Texture2D heightMapTexture = TextureBuilder.BuildTexture(hdHeightMap, heightTerrainTypes);
 
         // Apply the height map texture to the MeshRenderer
-        tileMeshRenderer.material.mainTexture = heightMapTexture;
+        //tileMeshRenderer.material.mainTexture = heightMapTexture;
+        // Heat map application to texture
+        float[,] heatMap = GenerateHeatMap(heightMap);
+        // Render as a texture
+        tileMeshRenderer.material.mainTexture = TextureBuilder.BuildTexture(heatMap, heatTerrainTypes);
     }
 
     float[,] GenerateHeatMap (float[,] heightMap) {
         // Generate a uniform noise map
+        float[,] uniformHeatMap = NoiseGenerator.GenerateUniformNoiseMap(noiseSampleSize, transform.position.z * (noiseSampleSize / meshGenerator.xSize), (noiseSampleSize / 2 * mapGenerator.numX) + 1);
+        // Generate normal noise map
+        float[,] randomHeatMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale, heatWaves, offset);
+
+        float[,] heatMap = new float[noiseSampleSize, noiseSampleSize];
+        // Add temperature to different heights in the maps
+        for(int x = 0; x < noiseSampleSize; x++) {
+            for(int z = 0; z < noiseSampleSize; z++) {
+                heatMap[x, z] = randomHeatMap[x, z] * uniformHeatMap[x, z];
+                heatMap[x, z] += 0.5f * heightMap[x, z]; // The closer to 0 the point is, the warmer it will be (cooler as it gets to 1)
+
+                // Clamp the height value from 1.2 to 1 (number can't be >1)
+                heatMap[x, z] = Mathf.Clamp(heatMap[x, z], 0.0f, 0.99f); // Place the value of the point between the two points 0 and 1 inclusive
+            }
+        }
+
+        return heatMap;
     }
 }
 

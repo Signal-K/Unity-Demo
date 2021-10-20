@@ -32,7 +32,17 @@ public class NoiseGenerator
     }
 
     public static float [,] GenerateUniformNoiseMap (int size, float vertexOffset, float maxVertexDistance) { // Noise sample size, however will not apply to the sample mesh, 1 offset required as we only have horizontal lines for the heat map
+        float[,] noiseMap = new float[size, size]; // length 2d array
+        for(int x = 0; x < size; x++) {
+            float xSample = x + vertexOffset;
+            float noise = Mathf.Abs(xSample) / maxVertexDistance;
+            
+            for(int z = 0; z < size; z++) {
+                noiseMap[x, size - z -1] = noise;
+            }
+        }
 
+        return noiseMap;
     }
 }
 
