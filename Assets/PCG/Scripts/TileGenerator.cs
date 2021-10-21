@@ -27,10 +27,12 @@ public class TileGenerator : MonoBehaviour
     [Header("Terrain Types")]
     public TerrainType[] heightTerrainTypes; // Send this to textureBuilder.cs
     public TerrainType[] heatTerrainTypes;
+    public TerrainType[] moisetureTerrainTypes;
 
     [Header("Waves")]
     public Wave[] waves;
     public Wave[] heatWaves;
+    public Wave[] moistureWaves;
 
     [Header("Curves")]
     public AnimationCurve heightCurve;
@@ -79,9 +81,12 @@ public class TileGenerator : MonoBehaviour
         // Apply the height map texture to the MeshRenderer
         //tileMeshRenderer.material.mainTexture = heightMapTexture;
         // Heat map application to texture
-        float[,] heatMap = GenerateHeatMap(heightMap);
+        //float[,] heatMap = GenerateHeatMap(heightMap);
         // Render as a texture
-        tileMeshRenderer.material.mainTexture = TextureBuilder.BuildTexture(heatMap, heatTerrainTypes);
+        //tileMeshRenderer.material.mainTexture = TextureBuilder.BuildTexture(heatMap, heatTerrainTypes);
+
+        float[,] moistureMap = GenerateMoistureMap(heightMap);
+        tileMeshRenderer.material.mainTexture = TextureBuilder.BuildTexture(moistureMap, moisetureTerrainTypes);
     }
 
     float[,] GenerateHeatMap (float[,] heightMap) {
@@ -103,6 +108,19 @@ public class TileGenerator : MonoBehaviour
         }
 
         return heatMap;
+    }
+
+    float[,] GenerateMoistureMap(float[,] heightMap) {
+        // Generate a new noise map with MoistureWaves
+        float[,] moistureMap = NoiseGenerator.GenerateNoiseMap(noiseSampleSize, scale, moistureWaves, offset);
+
+        // Loop through each item in the moistureMap and modify it based on the corresponding height/noisemap value
+        for(int x = 0; x < noiseSampleSize; x++) {
+            for(int z = 0; z < noiseSampleSize; z++) {
+                // Make the values affected by the height map (high points and low points in the terrain - apply effects to different points on the moisture map depending on height points in the other maps)
+                moistureMap[x, z] -= 0.1f * heightMap[x, z]; // 0 = 100% dry, 1 = 100% wet
+            }
+        }
     }
 }
 
