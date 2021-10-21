@@ -23,7 +23,7 @@ public class NoiseGenerator
                     normalization += wave.amplitude;
                 }
 
-                noise /= normalization;
+                noise /= normalization; 
                 noiseMap[x, y] = noise;
             }
         }
