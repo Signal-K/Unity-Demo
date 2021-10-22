@@ -85,16 +85,6 @@ public class TileGenerator : MonoBehaviour
         // Create the height map texture
         Texture2D heightMapTexture = TextureBuilder.BuildTexture(hdHeightMap, heightTerrainTypes);
 
-        // Apply the height map texture to the MeshRenderer
-        //tileMeshRenderer.material.mainTexture = heightMapTexture;
-        // Heat map application to texture
-        //float[,] heatMap = GenerateHeatMap(heightMap);
-        // Render as a texture
-        //tileMeshRenderer.material.mainTexture = TextureBuilder.BuildTexture(heatMap, heatTerrainTypes);
-
-        //float[,] moistureMap = GenerateMoistureMap(heightMap);
-        //tileMeshRenderer.material.mainTexture = TextureBuilder.BuildTexture(moistureMap, moistureTerrainTypes);
-
         float[,] heatMap = GenerateHeatMap(heightMap);
         float[,] moistureMap = GenerateMoistureMap(heightMap);
 
@@ -148,6 +138,7 @@ public class TileGenerator : MonoBehaviour
 
 [System.Serializable]
 public class TerrainType {
+    public int index;
     [Range(0.0f, 1.0f)] // Slider inside Unity editor between 0 and 1
     public float threshold; // Height at which this terrain type ends
     public Gradient colorGradient; // Colour of the terrain type
