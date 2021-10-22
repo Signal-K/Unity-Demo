@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum TerrainVisualization {
+public enum TerrainVisualization { // Visualize different maps dropdown selection
     Height,
     Heat,
-    Moisture
+    Moisture,
+    Biome
 }
 
 public class TileGenerator : MonoBehaviour
@@ -88,6 +89,9 @@ public class TileGenerator : MonoBehaviour
         float[,] heatMap = GenerateHeatMap(heightMap);
         float[,] moistureMap = GenerateMoistureMap(heightMap);
 
+        TerrainType[,] heatTerrainTypeMap = TextureBuilder.CreateTerrainTypeMap(heatMap, heatTerrainTypes);
+        TerrainType[,] moistureTerrainTypeMap = TextureBuilder.CreateTerrainTypeMap(moistureMap, moistureTerrainTypes);
+
         switch(visualizationType) {
             case TerrainVisualization.Height:
                 tileMeshRenderer.material.mainTexture = TextureBuilder.BuildTexture(hdHeightMap, heightTerrainTypes);
@@ -97,6 +101,9 @@ public class TileGenerator : MonoBehaviour
                 break;
             case TerrainVisualization.Moisture:
                 tileMeshRenderer.material.mainTexture = TextureBuilder.BuildTexture(moistureMap, moistureTerrainTypes);
+                break;
+            case TerrainVisualization.Biome:
+                tileMeshRenderer.material.mainTexture = BiomeBuilder.instance.BuildTexture(heatTerrainTypeMap, moistureTerrainTypeMap);
                 break;
         }
     }

@@ -36,6 +36,46 @@ public class TextureBuilder
 
         return texture;
     }
+
+    public static TerrainType[,] CreateTerrainTypeMap (float[,] noiseMap, TerrainType[] terrainTypes)
+    {
+        int size = noiseMap.GetLength(0);
+        TerrainType[,] outputMap = new TerrainType[size, size];
+
+        for(int x = 0; x < size; x++)
+        {
+            for(int z = 0; z < size; z++)
+            {
+                for(int t = 0; t < terrainTypes.Length; t++)
+                {
+                    if(noiseMap[x, z] < terrainTypes[t].threshold)
+                    {
+                        outputMap[x, z] = terrainTypes[t];
+                        break;
+                    }
+                }
+            }
+        }
+
+        return outputMap;
+    }
+/*
+    public static TerrainType[,] CreateTerrainTypeMap (float[,] noiseMap, TerrainType terrainTypes) {
+        int size = noiseMap.GetLength(0); // Height of the 2D array
+        terrainType[,] outputMap = new TerrainType[size, size];
+
+        for(int x = 0; x < size; x++) {
+            for(int z = 0; z < size; z++) {
+                for(int t = 0; t < terrainTypes.Length; t++) {
+                    if(noiseMap[x, z] < terrainTypes[t].threshold) {
+                        outputMap[x, z] = terrainTypes[t];
+                        break;
+                    }
+                }
+            }
+        }
+        return outputMap;
+    }*/
 }
 
 // Notes https://www.notion.so/skinetics/Notes-on-Procedural-Generation-df605ec522b84c4db2aaf8d37fa7f35d#88644b0714a04207baf0c4c78e77537f

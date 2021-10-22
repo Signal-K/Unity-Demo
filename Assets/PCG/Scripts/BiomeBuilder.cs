@@ -6,9 +6,14 @@ public class BiomeBuilder : MonoBehaviour
 {
     public BiomeRow[] biomeRows;
 
+    public static BiomeBuilder instance;
+    void Awake() {
+        instance = this;
+    }
+
     // Build the texture for the biome
-    public Texture2D BuildTexture () {
-        
+    public Texture2D BuildTexture (TerrainType[,] heatMapTypes, TerrainType[,] moistureMapTypes) {
+        return null;
     }
 }
 
