@@ -64,7 +64,7 @@ MonoBehaviour:
   noiseSampleSize: 30
   scale: 10
   maxHeight: 5
-  visualizationType: 0
+  visualizationType: 3
   textureResolution: 32
   offset: {x: 0, y: 0}
   heightTerrainTypes:
@@ -443,27 +443,27 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
   waves:
-  - seed: 2136
+  - seed: 3
     frequency: 2
     amplitude: 3
-  - seed: 5436
+  - seed: 43
     frequency: 1
     amplitude: 0.5
-  - seed: 7654
+  - seed: 69
     frequency: 0.5
     amplitude: 5
   heatWaves:
-  - seed: 5432
+  - seed: 69
     frequency: 0.2
     amplitude: 1
-  - seed: 9676
+  - seed: 69
     frequency: 1
     amplitude: 1
   moistureWaves:
-  - seed: 4325
+  - seed: 69
     frequency: 0.5
     amplitude: 2
-  - seed: 8765
+  - seed: 69
     frequency: 0.5
     amplitude: 1
   heightCurve:

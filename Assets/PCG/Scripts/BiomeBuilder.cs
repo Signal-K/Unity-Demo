@@ -20,7 +20,7 @@ public class BiomeBuilder : MonoBehaviour
             for(int z = 0; z < size; z++) {
                 int index = (x * size) + z;
                 int heatMapIndex = heatMapTypes[x, z].index;
-                int moistureMapIndex = moistureMap[x, z].index;
+                int moistureMapIndex = moistureMapTypes[x, z].index;
 
                 Biome biome = biomeRows[moistureMapIndex].biomes[heatMapIndex]; // Pin pointing a specific biome on the biome table based on the heatMapIndex and the moistureMapIndex
                 pixels[index] = biome.color;
@@ -28,7 +28,7 @@ public class BiomeBuilder : MonoBehaviour
         }
 
         // Assign the colour of the biome to a texture
-        Texture2D texture = new Texture2D(size, sizw);
+        Texture2D texture = new Texture2D(size, size);
         texture.wrapMode = TextureWrapMode.Clamp;
         texture.filterMode = FilterMode.Bilinear;
         texture.SetPixels(pixels);
