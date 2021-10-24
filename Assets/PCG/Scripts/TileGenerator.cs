@@ -24,6 +24,8 @@ public class TileGenerator : MonoBehaviour
     // Params for UniformNoiseMap
     private MeshGenerator meshGenerator;
     private MapGenerator mapGenerator;
+
+    private TerrainData[,] dataMap;
     
     public int textureResolution = 1;
 
@@ -106,6 +108,30 @@ public class TileGenerator : MonoBehaviour
                 tileMeshRenderer.material.mainTexture = BiomeBuilder.instance.BuildTexture(heatTerrainTypeMap, moistureTerrainTypeMap);
                 break;
         }
+
+        CreateDataMap(heatTerrainTypeMap, moistureTerrainTypeMap);
+    }
+
+    // Create a data map/terrain data
+    void CreateDataMap(TerrainType[,] heatTerrainTypeMap, TerrainType[,] moistureTerrainTypeMap) {
+        dataMap = new TerrainData[noiseSampleSize, noiseSampleSize];
+        Vector3[] verts = tileMeshFilter.mesh.vertices;
+
+        for(int x = 0; x < noiseSampleSize; x++) {
+            for(int z = 0; z < noiseSampleSize; z++) {
+                TerrainData data = new TerrainData();
+
+                // Set the position of the data point (the corresponding vertice that is currently being calculated - calculate the point)
+                data.position = transform.position + verts[(x * noiseSampleSize) + z]; // transform.position added to specify the current tile, otherwise this would set data for the vertice value/position on EACH tile (currently we have 2*2 tile configuration)
+                data.heatTerrainType = heatTerrainTypeMap[x, z];
+                data.moistureTerrainType = moistureTerrainTypeMap[x, z];
+                // Set the biome
+                data.biome = BiomeBuilder.instance.GetBiome(data.heatTerrainType, data.moistureTerrainType);                
+
+                // Apply this data object to the data array
+                dataMap[x, z] = data;
+            }
+        }
     }
 
     float[,] GenerateHeatMap (float[,] heightMap) {
@@ -149,4 +175,11 @@ public class TerrainType {
     [Range(0.0f, 1.0f)] // Slider inside Unity editor between 0 and 1
     public float threshold; // Height at which this terrain type ends
     public Gradient colorGradient; // Colour of the terrain type
+}
+
+public class TerrainData {
+    public Vector3 position; // Position of the point on the terrain model / terrain data 2d array
+    public TerrainType heatTerrainType;
+    public TerrainType moistureTerrainType; // How wet/dry the point is
+    public Biome biome; // What biome is this position in?
 }

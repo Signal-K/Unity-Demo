@@ -36,6 +36,11 @@ public class BiomeBuilder : MonoBehaviour
 
         return texture;
     }
+
+    // Set the biome for TileGenerator.cs > CreateDataMap
+    public Biome GetBiome(TerrainType heatTerrainType, TerrainType moistureTerrainType) {
+        return biomeRows[moistureTerrainType.index].biomes[heatTerrainType.index]; // Returns the biome that these corresponding points on the map (moisture and heat) correspond to (remember, biome is calculated from biome table)
+    }
 }
 
 [System.Serializable]
