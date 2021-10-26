@@ -2,9 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum BiomeType {
+    Desert,
+    Tundra,
+    Savana,
+    Forest,
+    Rainforest
+}
+
 public class BiomeBuilder : MonoBehaviour
 {
-    public BiomeRow[] biomeRows;
+    public Biome[] biomes;
+    public BiomeRow[] tableRows;
 
     public static BiomeBuilder instance;
     void Awake() {
@@ -22,7 +31,14 @@ public class BiomeBuilder : MonoBehaviour
                 int heatMapIndex = heatMapTypes[x, z].index;
                 int moistureMapIndex = moistureMapTypes[x, z].index;
 
-                Biome biome = biomeRows[moistureMapIndex].biomes[heatMapIndex]; // Pin pointing a specific biome on the biome table based on the heatMapIndex and the moistureMapIndex
+                Biome biome = null;
+
+                foreach(Biome b in biomes) {
+                    if(b.type == tableRows[moistureMapIndex].tableColumns[heatMapIndex]) {
+                        biome = b;
+                        break;
+                    }
+                }
                 pixels[index] = biome.color;
             }
         }
@@ -39,17 +55,27 @@ public class BiomeBuilder : MonoBehaviour
 
     // Set the biome for TileGenerator.cs > CreateDataMap
     public Biome GetBiome(TerrainType heatTerrainType, TerrainType moistureTerrainType) {
-        return biomeRows[moistureTerrainType.index].biomes[heatTerrainType.index]; // Returns the biome that these corresponding points on the map (moisture and heat) correspond to (remember, biome is calculated from biome table)
+        foreach(Biome b in biomes) {
+            if(b.type == tableRows[moistureMapIndex].tableColumns[heatMapIndex]) {
+                return b;
+            }
+        }
+        return null; // Didn't match with any of the biomes in the biome table, so return null 
     }
 }
 
 [System.Serializable]
 public class BiomeRow {
-    public Biome[] biomes;
+    public BiomeType[] tableColumns;
 }
 
 [System.Serializable]
 public class Biome {
-    public string name;
+    public BiomeType type; // Make the biome type selectable in the Unity inspector for each point on the grid
     public Color color;
+    public bool spawnPrefabs; // Do we want prefabs to spawn on these biomes?
+    public GameObject[] spawnablePrefabs; // Spawn prefabs on top of the grid (in the biomes)
+
+    [Range(0.0f, 3.0f)] // 0 = 0 prefabs per position, 3 = 3 per position
+    public float density = 1.0f; // How densely packed are the prefabs? 
 }
