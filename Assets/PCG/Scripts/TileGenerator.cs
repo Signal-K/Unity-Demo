@@ -110,6 +110,7 @@ public class TileGenerator : MonoBehaviour
         }
 
         CreateDataMap(heatTerrainTypeMap, moistureTerrainTypeMap);
+        TreeSpawner.instance.Spawn(dataMap);
     }
 
     // Create a data map/terrain data
