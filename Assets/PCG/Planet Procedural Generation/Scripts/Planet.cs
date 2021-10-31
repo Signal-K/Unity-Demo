@@ -1,31 +1,32 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Planet : MonoBehaviour {
+
     [Range(2,256)]
     public int resolution = 10;
+    public bool autoUpdate = true;
 
-    // Planet attributes
     public ShapeSettings shapeSettings;
-    public ColorSettings colorSettings;
+    public ColourSettings colourSettings;
+
+    [HideInInspector]
+    public bool shapeSettingsFoldout;
+    [HideInInspector]
+    public bool colourSettingsFoldout;
 
     ShapeGenerator shapeGenerator;
 
-
-    // Planet Meshes
     [SerializeField, HideInInspector]
     MeshFilter[] meshFilters;
     TerrainFace[] terrainFaces;
      
-	private void OnValidate()
-	{
-        GeneratePlanet();
-	}
 
 	void Initialize()
     {
         shapeGenerator = new ShapeGenerator(shapeSettings);
+
         if (meshFilters == null || meshFilters.Length == 0)
         {
             meshFilters = new MeshFilter[6];
@@ -50,20 +51,29 @@ public class Planet : MonoBehaviour {
         }
     }
 
-    public void GeneratePlanet() { // Reset function - other functions will only act if one attribute has been changed - this regenerates the whole thing based on current params
+    public void GeneratePlanet()
+    {
         Initialize();
         GenerateMesh();
-        GenerateColors();
+        GenerateColours();
     }
 
-    public void OnShapeSettingsUpdated() {
-        Initialize();
-        GenerateMesh(); // Calling ConstructMesh - we need this to use the attributes from our PlanetSettings
+    public void OnShapeSettingsUpdated()
+    {
+        if (autoUpdate)
+        {
+            Initialize();
+            GenerateMesh();
+        }
     }
 
-    public void OnColorSettingsUpdated() {
-        Initialize();
-        GenerateColors();
+    public void OnColourSettingsUpdated()
+    {
+        if (autoUpdate)
+        {
+            Initialize();
+            GenerateColours();
+        }
     }
 
     void GenerateMesh()
@@ -74,11 +84,11 @@ public class Planet : MonoBehaviour {
         }
     }
 
-    void GenerateColors() {
-        // Loop through the meshes and set the materials' colours based on the colour inside ColorSettings
-        foreach (MeshFilter m in meshFilters) // for each inside the array
+    void GenerateColours()
+    {
+        foreach (MeshFilter m in meshFilters)
         {
-            m.GetComponent<MeshRenderer>().sharedMaterial.color = colorSettings.planetColor;
+            m.GetComponent<MeshRenderer>().sharedMaterial.color = colourSettings.planetColour;
         }
     }
 }
