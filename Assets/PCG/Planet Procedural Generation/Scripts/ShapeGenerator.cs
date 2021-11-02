@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShapeGenerator {
     ShapeSettings settings;
     INoiseFilter[] noiseFilters;
+    public MinMax elevationMinMax;
 
     public ShapeGenerator(ShapeSettings settings)
     {
@@ -13,6 +14,7 @@ public class ShapeGenerator {
         for(int i = 0; i < noiseFilters.Length; i++) {
             noiseFilters[i] = NoiseFilterFactory.CreateNoiseFilter(settings.noiseLayers[i].noiseSettings);
         }
+        elevationMinMax = new MinMax();
     }
 
     public Vector3 CalculatePointOnPlanet(Vector3 pointOnUnitSphere)
@@ -32,6 +34,9 @@ public class ShapeGenerator {
                 elevation += noiseFilters[i].Evaluate(pointOnUnitSphere) * mask;
             }
         }
-        return pointOnUnitSphere * settings.planetRadius * (1+elevation);
+        // Calculate the final elevation of the point before returning it
+        elevation = settings.planetRadius *  (1+elevation);
+        elevationMinMax.AddValue(elevation); // Keeping track of the minimum and maximum elevation for all the vertices in the map
+        return pointOnUnitSphere * elevation;
     }
 }
