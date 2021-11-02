@@ -19,7 +19,7 @@ public class NoiseSettings {
         public int numLayers = 1;
         public float baseRoughness = 1;
         public float roughness = 2;
-        public float persistence = .5; // Half the amplitude with each layer
+        public float persistence = .5f; // Half the amplitude with each layer
         public Vector3 centre; // Allow us to move the noise around
         public float minValue;
     }

@@ -6,7 +6,7 @@ public class SimpleNoiseFilter : INoiseFilter {
     NoiseSettings.SimpleNoiseSettings settings;
     Noise noise = new Noise();
 
-    public SimpleeNoiseFilter(NoiseSettings.SimpleNoiseSettings settings) {
+    public SimpleNoiseFilter(NoiseSettings.SimpleNoiseSettings settings) {
         this.settings = settings;
     }
 
