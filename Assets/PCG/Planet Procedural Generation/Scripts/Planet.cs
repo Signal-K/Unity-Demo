@@ -50,7 +50,7 @@ public class Planet : MonoBehaviour {
             }
 
             terrainFaces[i] = new TerrainFace(shapeGenerator, meshFilters[i].sharedMesh, resolution, directions[i]);
-            bool renderFace = faceRenderMask == faceRenderMask.All || (int)faceRenderMask - 1 == i; // Is the currently selected face the one we want to render?
+            bool renderFace = faceRenderMask == FaceRenderMask.All || (int)faceRenderMask - 1 == i; // Is the currently selected face the one we want to render?
             meshFilters[i].gameObject.SetActive(renderFace);
         }
     }
@@ -82,9 +82,9 @@ public class Planet : MonoBehaviour {
 
     void GenerateMesh()
     {
-        for(int i = 0; i < max; i++) {
+        for(int i = 0; i < 6; i++) {
             if(meshFilters[i].gameObject.activeSelf) {
-                terrainFaces[i].ConstructMesh; 
+                terrainFaces[i].ConstructMesh();
             }
         }
     }
