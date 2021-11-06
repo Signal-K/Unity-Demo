@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.lootlocker.lootlockersdk": "file:/Users/admin/Documents/Temp/unity-sdk",
     "com.unity.cinemachine": "2.7.8",
     "com.unity.collab-proxy": "1.13.5",
     "com.unity.ide.rider": "3.0.7",

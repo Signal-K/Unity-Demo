@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.lootlocker.lootlockersdk": {
+      "version": "file:/Users/admin/Documents/Temp/unity-sdk",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      }
+    },
     "com.unity.cinemachine": {
       "version": "2.7.8",
       "depth": 0,
