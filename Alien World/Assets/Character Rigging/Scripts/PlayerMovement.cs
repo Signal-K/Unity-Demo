@@ -31,7 +31,11 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Move() {
-        isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
+        isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask); // Return true whenever we're standing on the ground
+
+        if(isGrounded && velocity.y < 0) {
+            velocity.y = -2f;
+        }
 
         float moveZ = Input.GetAxis("Vertical"); // z = forward and backwards input axes
 
@@ -53,6 +57,9 @@ public class PlayerMovement : MonoBehaviour
         moveDirection *= moveSpeed;
 
         controller.Move(moveDirection * Time.deltaTime);
+
+        velocity.y += gravity * Time.deltaTime; // calculate gravity
+        controller.Move(velocity * Time.deltaTime); // apply gravity to the character
     }
 
     private void Idle() {
