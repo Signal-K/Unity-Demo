@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Character Rigging/3D Character.unity
+- path: Assets/LowPolyAlienWorld/Scenes/ExampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

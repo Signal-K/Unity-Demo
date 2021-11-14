@@ -321,6 +321,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Character Rigging/Scripts/CameraController.cs"
 "Assets/Character Rigging/Scripts/PlayerMovement.cs"
+"Assets/CharacterController/Player.cs"
 -langversion:8.0
 
 /deterministic
