@@ -322,6 +322,7 @@
 "Assets/Character Rigging/Scripts/CameraController.cs"
 "Assets/Character Rigging/Scripts/PlayerMovement.cs"
 "Assets/CharacterController/Player.cs"
+"Assets/Scenes/Scene_Scripts/Quest.cs"
 -langversion:8.0
 
 /deterministic
