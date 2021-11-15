@@ -323,6 +323,8 @@
 "Assets/Character Rigging/Scripts/PlayerMovement.cs"
 "Assets/CharacterController/Player.cs"
 "Assets/Scenes/Scene_Scripts/Quest.cs"
+"Assets/Scenes/Scene_Scripts/QuestGiver.cs"
+"Assets/Scenes/Scene_Scripts/QuestGoal.cs"
 -langversion:8.0
 
 /deterministic
