@@ -13,4 +13,9 @@ public class Quest
     public int currencyReward;
 
     public QuestGoal goal;
+
+    public void Complete() {
+        isActive = false;
+        Debug.Log(title + " was completed");
+    }
 }
