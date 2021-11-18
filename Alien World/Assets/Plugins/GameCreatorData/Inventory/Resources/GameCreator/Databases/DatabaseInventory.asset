@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e40ba9355f343dc9daa80cc6e5ef1f, type: 3}
+  m_Name: DatabaseInventory
+  m_EditorClassIdentifier: 
+  inventoryCatalogue:
+    items: []
+    recipes: []
+    itemTypes:
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+    - id: 
+      name:
+        content: 
+        postProcess: 0
+        translationID: 0
+  inventorySettings:
+    merchantUIPrefab: {fileID: 0}
+    containerUIPrefab: {fileID: 0}
+    inventoryUIPrefab: {fileID: 0}
+    onDragGrabItem: 1
+    saveInventory: 1
+    cursorDrag: {fileID: 0}
+    cursorDragHotspot: {x: 0, y: 0}
+    dragItemsToCombine: 1
+    pauseTimeOnUI: 0
+    canDropItems: 1
+    dropItemMaxDistance: 2
+    limitInventoryWeight: 0
+    maxInventoryWeight:
+      optionIndex: 0
+      value: 100
+      global:
+        allowTypesMask: -1
+        name: 
+      local:
+        allowTypesMask: -1
+        name: 
+        targetType: 2
+        targetObject: {fileID: 0}
+      list:
+        targetType: 3
+        targetObject: {fileID: 0}
+        select: 1
+        index: 0

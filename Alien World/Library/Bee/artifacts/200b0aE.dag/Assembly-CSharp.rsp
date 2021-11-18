@@ -302,6 +302,8 @@
 -r:"/Applications/Unity/Hub/Editor/2021.1.26f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
 -r:"/Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
 -r:"/Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/GameCreator.Update.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
