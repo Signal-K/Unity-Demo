@@ -16,8 +16,6 @@ MonoBehaviour:
   prefabSimpleMessage: {fileID: 0}
   prefabFloatingMessage: {fileID: 0}
   prefabTouchstick: {fileID: 0}
-  forceDisplayInEditor: 0
-  touchstickMode: 0
   saveScenes: 1
   provider: {fileID: 0}
   toolbarPositionX: 10

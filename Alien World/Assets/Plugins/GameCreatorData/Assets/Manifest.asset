@@ -82,3 +82,47 @@ MonoBehaviour:
       - Assets/Plugins/GameCreator/Inventory/
       dataPaths:
       - Assets/Plugins/GameCreatorData/Inventory/
+  - module:
+      moduleID: com.piveclabs.examples.uicomponents
+      version:
+        major: 1
+        minor: 6
+        patch: 1
+      displayName: UI Components Examples
+      description: UI COMPONENT EXAMPLES WILL OVERWRITE VARIABLE DATABASE
+      category: 
+      dependencies: []
+      tags:
+      - UI Components
+      - game creator
+      - Examples
+      authorName: Dr Paul Pivec
+      authorMail: paul.pivec@piveclabs.com
+      authorSite: https://www.piveclabs.com
+      includesData: 1
+      codePaths:
+      - Assets/PivecLabs/UIExamples/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Core/Resources/GameCreator/Databases/DatabaseVariables.asset
+      - Assets/Plugins/GameCreatorData/Core/Variables/
+      - Assets/Plugins/GameCreatorData/Core/Resources/GameCreator/Databases/DatabaseGeneral.asset
+  - module:
+      moduleID: com.piveclabs.modules.uicomponents
+      version:
+        major: 1
+        minor: 6
+        patch: 1
+      displayName: UI Components Module
+      description: UI Components Module for Game Creator
+      category: UI Components
+      dependencies: []
+      tags:
+      - UI Components
+      - game creator
+      authorName: Dr Paul Pivec
+      authorMail: paul.pivec@piveclabs.com
+      authorSite: https://www.piveclabs.com
+      includesData: 0
+      codePaths:
+      - Assets/PivecLabs/UIComponents/
+      dataPaths: []

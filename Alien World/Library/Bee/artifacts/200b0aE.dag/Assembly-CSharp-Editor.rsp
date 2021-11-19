@@ -335,6 +335,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Gizmos/PivecLabs/UIComponents/Editor/UIElementManagerEditor.cs"
 "Assets/Images/Area730/UpdateManager/Editor/SimpleJSON.cs"
 "Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs"
 -langversion:8.0
