@@ -728,3 +728,1396 @@ Received Import Request.
   path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/menu_ic.png
   artifactKey: Guid(8e22bbfe5dc6cb14e8e510d46a44c4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/menu_ic.png using Guid(8e22bbfe5dc6cb14e8e510d46a44c4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4dd04d8b4889e6261e57a205277ab0') in 0.019520 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006257 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3318ms)
+		BeginReloadAssembly (489ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (297ms)
+		EndReloadAssembly (2689ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1257ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3726 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 335.0 MB.
+System memory in use after: 335.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5185.
+Total: 5.314896 ms (FindLiveObjects: 0.635433 ms CreateObjectMapping: 0.210894 ms MarkObjects: 4.396320 ms  DeleteObjects: 0.070285 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015749 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2986ms)
+		BeginReloadAssembly (545ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (54ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (267ms)
+		EndReloadAssembly (2314ms)
+			LoadAssemblies (296ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (850ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (872ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (664ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (69ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 332.6 MB.
+System memory in use after: 332.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5187.
+Total: 8.664679 ms (FindLiveObjects: 0.800031 ms CreateObjectMapping: 0.357208 ms MarkObjects: 7.441049 ms  DeleteObjects: 0.063672 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2095ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (1716ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (681ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (535ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 332.9 MB.
+System memory in use after: 333.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5189.
+Total: 4.095712 ms (FindLiveObjects: 0.397158 ms CreateObjectMapping: 0.168484 ms MarkObjects: 3.458755 ms  DeleteObjects: 0.069738 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015033 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2826ms)
+		BeginReloadAssembly (436ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (49ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (261ms)
+		EndReloadAssembly (2232ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (922ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (714ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (507ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (84ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 333.1 MB.
+System memory in use after: 333.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5191.
+Total: 6.605316 ms (FindLiveObjects: 0.788242 ms CreateObjectMapping: 0.344089 ms MarkObjects: 5.400212 ms  DeleteObjects: 0.070944 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007881 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4043ms)
+		BeginReloadAssembly (650ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (341ms)
+		EndReloadAssembly (3064ms)
+			LoadAssemblies (431ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1356ms)
+			ReleaseScriptCaches (11ms)
+			RebuildScriptCaches (197ms)
+			SetupLoadedEditorAssemblies (843ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (590ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (64ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 333.4 MB.
+System memory in use after: 333.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5193.
+Total: 7.068627 ms (FindLiveObjects: 0.706093 ms CreateObjectMapping: 0.233665 ms MarkObjects: 6.055915 ms  DeleteObjects: 0.070904 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033402 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.158 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2159ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (1790ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (651ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 333.6 MB.
+System memory in use after: 333.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5195.
+Total: 4.668988 ms (FindLiveObjects: 0.731114 ms CreateObjectMapping: 0.526240 ms MarkObjects: 3.360273 ms  DeleteObjects: 0.050023 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9634.525095 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(14a60f342ae6b42bcbb241280698db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(14a60f342ae6b42bcbb241280698db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a920c5b7af2105ec8dfb35ad092b02') in 0.026580 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005135 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2820ms)
+		BeginReloadAssembly (454ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (60ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (241ms)
+		EndReloadAssembly (2232ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1020ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (184ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (66ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 333.8 MB.
+System memory in use after: 334.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5197.
+Total: 5.027597 ms (FindLiveObjects: 0.490071 ms CreateObjectMapping: 0.179459 ms MarkObjects: 4.274321 ms  DeleteObjects: 0.082150 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 352.831771 seconds.
+  path: Assets/Character Rigging
+  artifactKey: Guid(8af55b9f534a049d085d36332bf11c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Rigging using Guid(8af55b9f534a049d085d36332bf11c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef825590e014a5e96e3897b5a43dfa74') in 0.007422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.952484 seconds.
+  path: Assets/Character Rigging/3D Character.unity
+  artifactKey: Guid(f84f11151a41b4adfa99c40a5e6a7957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Rigging/3D Character.unity using Guid(f84f11151a41b4adfa99c40a5e6a7957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20733709ff8e3bc3525cc1a52152e35d') in 0.021661 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016452 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2688ms)
+		BeginReloadAssembly (428ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (49ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (202ms)
+		EndReloadAssembly (2163ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (957ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (604ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 334.1 MB.
+System memory in use after: 334.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5199.
+Total: 3.958406 ms (FindLiveObjects: 0.381297 ms CreateObjectMapping: 0.154431 ms MarkObjects: 3.380919 ms  DeleteObjects: 0.040370 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006509 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5490ms)
+		BeginReloadAssembly (999ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (61ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (604ms)
+		EndReloadAssembly (4092ms)
+			LoadAssemblies (631ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2210ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (996ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (215ms)
+				ProcessInitializeOnLoadAttributes (706ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 334.4 MB.
+System memory in use after: 334.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5201.
+Total: 5.427290 ms (FindLiveObjects: 0.484559 ms CreateObjectMapping: 0.216598 ms MarkObjects: 4.669094 ms  DeleteObjects: 0.055069 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007698 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.656 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2657ms)
+		BeginReloadAssembly (405ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (282ms)
+		EndReloadAssembly (2118ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (879ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (661ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (472ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 334.6 MB.
+System memory in use after: 334.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5203.
+Total: 5.583341 ms (FindLiveObjects: 0.499646 ms CreateObjectMapping: 0.202463 ms MarkObjects: 4.832764 ms  DeleteObjects: 0.046752 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014674 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Projects/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Area730] Started checking updates...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
+Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2691ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (2278ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (795ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (839ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (229ms)
+				ProcessInitializeOnLoadAttributes (529ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (50ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 334.9 MB.
+System memory in use after: 335.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 5205.
+Total: 5.136816 ms (FindLiveObjects: 0.451326 ms CreateObjectMapping: 0.179208 ms MarkObjects: 4.462059 ms  DeleteObjects: 0.042450 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
