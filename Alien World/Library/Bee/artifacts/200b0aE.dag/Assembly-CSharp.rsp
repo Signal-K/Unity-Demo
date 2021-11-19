@@ -321,6 +321,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Character Rigging/CharacterController/Player.cs"
 "Assets/Character Rigging/Scripts/CameraController.cs"
 "Assets/Character Rigging/Scripts/PlayerMovement.cs"
 "Assets/CharacterController/Player.cs"

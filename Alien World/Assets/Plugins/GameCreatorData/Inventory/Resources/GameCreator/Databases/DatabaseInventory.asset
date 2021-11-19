@@ -1,5 +1,42 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3605892021067268807
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.981689767
+  m_EditorClassIdentifier: 
+  uuid: 981689767
+  itemName:
+    content: 
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: 
+    postProcess: 0
+    translationID: 0
+  itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  sprite: {fileID: 0}
+  prefab: {fileID: 0}
+  canBeSold: 1
+  price: 1
+  maxStack: 99
+  weight: 0
+  itemTypes: 0
+  onClick: 1
+  consumeItem: 1
+  actionsOnClick: {fileID: 6679671791269893101, guid: 3ddced99a2e584b0483c28c298bb7dc6, type: 3}
+  equipable: 0
+  fillAllTypes: 0
+  conditionsEquip: {fileID: 938870870631800478, guid: 64524a4d0575a4809a838f694a0ff880, type: 3}
+  actionsOnEquip: {fileID: 5359464720164345307, guid: b6969496aad964aa793c058fabb9ffd4, type: 3}
+  actionsOnUnequip: {fileID: 7909142255589677077, guid: def945fc117714feb84a4056e34324c5, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,7 +50,8 @@ MonoBehaviour:
   m_Name: DatabaseInventory
   m_EditorClassIdentifier: 
   inventoryCatalogue:
-    items: []
+    items:
+    - {fileID: -3605892021067268807}
     recipes: []
     itemTypes:
     - id: 
