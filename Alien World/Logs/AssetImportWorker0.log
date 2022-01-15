@@ -890,3 +890,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28027.463972 seconds.
+  path: Assets/Character Rigging/Scripts/PlayerMovement.cs
+  artifactKey: Guid(f0974bbcf867b45e6908d852d37f8c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Rigging/Scripts/PlayerMovement.cs using Guid(f0974bbcf867b45e6908d852d37f8c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabaf10204134da19580cd22ab9729fd') in 0.906707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.399544 seconds.
+  path: Assets/Character Rigging/Scripts/CameraController.cs
+  artifactKey: Guid(3e89169987bf84571b86852a5530103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Rigging/Scripts/CameraController.cs using Guid(3e89169987bf84571b86852a5530103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31f3e945bdeefb405543b630270665e') in 0.012244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 432.323661 seconds.
+  path: Assets/Character Rigging/Scripts/Player.prefab
+  artifactKey: Guid(0f542635e2a90452b855628e10139f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Rigging/Scripts/Player.prefab using Guid(0f542635e2a90452b855628e10139f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654f1bd375502b86ad872a2df4bdd82d') in 2.214176 seconds 
