@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9141482635074014063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ed1946d26146d59a35072bef19b50, type: 3}
+  m_Name: x256kmva
+  m_EditorClassIdentifier: 
+  uniqueID: 6d2ba66a984f490abc63c58aa365bea2
+  attribute:
+    uniqueName: health
+    shortName: HP
+    title:
+      content: Health
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Player Health Points
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 21300000, guid: 88e41c9ed45a75049b07b4cc1529524e, type: 3}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    minValue: 0
+    stat: {fileID: -7622630726368748786, guid: e393fe597519c4488a1da90157157d03, type: 2}
+    percent: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ac1e52345c5a4a8489aff2c0a41bacb, type: 3}
+  m_Name: AttributesAsset
+  m_EditorClassIdentifier: 
+  attributes:
+  - {fileID: -9141482635074014063}

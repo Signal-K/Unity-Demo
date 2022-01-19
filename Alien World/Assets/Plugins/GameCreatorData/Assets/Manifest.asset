@@ -106,3 +106,48 @@ MonoBehaviour:
       - Assets/Plugins/GameCreatorData/Core/Resources/GameCreator/Databases/DatabaseVariables.asset
       - Assets/Plugins/GameCreatorData/Core/Variables/
       - Assets/Plugins/GameCreatorData/Core/Resources/GameCreator/Databases/DatabaseGeneral.asset
+  - module:
+      moduleID: com.gamecreator.examples.stats
+      version:
+        major: 1
+        minor: 1
+        patch: 3
+      displayName: Stats Examples
+      description: Example scenes that show some of the most common cases using the
+        Stats module
+      category: Examples
+      dependencies:
+      - moduleID: com.gamecreator.module.stats
+        version:
+          major: 1
+          minor: 1
+          patch: 1
+      tags:
+      - examples
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 1
+      codePaths:
+      - Assets/Plugins/GameCreator/StatsExamples/
+      dataPaths:
+      - Assets/Plugins/GameCreatorData/Stats/
+  - module:
+      moduleID: com.gamecreator.module.stats
+      version:
+        major: 1
+        minor: 1
+        patch: 5
+      displayName: Stats
+      description: Easily design game progression with unconstrained stat systems
+      category: Modules
+      dependencies: []
+      tags:
+      - module
+      authorName: Marti-Joan Nogue Coll
+      authorMail: marti@catsoft-studios.com
+      authorSite: https://gamecreator.io
+      includesData: 0
+      codePaths:
+      - Assets/Plugins/GameCreator/Stats/
+      dataPaths: []

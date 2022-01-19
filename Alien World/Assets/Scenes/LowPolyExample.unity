@@ -26051,6 +26051,7 @@ GameObject:
   - component: {fileID: 971899446}
   - component: {fileID: 971899445}
   - component: {fileID: 971899444}
+  - component: {fileID: 971899448}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -26132,6 +26133,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &971899448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971899443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c66432af9c27436c8adc67ae3963b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gid: 39f1ed85-813a-42e3-9188-cbc995dd6e3d
+  saveStats: 1
+  statsOverrides:
+  - statUniqueID: 5f60f926f8c34796b65009fcc6e7aca1
+    overrideValue: 0
+    baseValue: 0
+    overrideFormula: 0
+    formula: {fileID: 0}
+  - statUniqueID: 0685cbd6742e406a936959fa5957701e
+    overrideValue: 0
+    baseValue: 0
+    overrideFormula: 0
+    formula: {fileID: 0}
 --- !u!4 &972451196 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4512211057884754, guid: 9b2afb2de81f7fa4bb4c6c9533ff3e7f, type: 3}

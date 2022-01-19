@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7622630726368748786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: agxhg3l6
+  m_EditorClassIdentifier: 
+  uniqueID: ed4faf1ba14f40ee9df3054ecdd7d35e
+  stat:
+    uniqueName: Vitality
+    shortName: 
+    title:
+      content: vitality
+      postProcess: 0
+      translationID: 0
+    description:
+      content: 
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 0
+    formula: {fileID: 0}
+  isHidden: 0
+--- !u!114 &-1068931024399423455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: nrek4m7f
+  m_EditorClassIdentifier: 
+  uniqueID: 5f60f926f8c34796b65009fcc6e7aca1
+  stat:
+    uniqueName: health
+    shortName: HP
+    title:
+      content: Health
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Amount of health points
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 21300000, guid: 6904a5e63b2f0674e90fe676a13ed777, type: 3}
+    color: {r: 0.93333334, g: 0.08121047, b: 0, a: 1}
+    baseValue: 0
+    formula: {fileID: 0}
+  isHidden: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3929c93f8d6424c87244a3a5d99e94, type: 3}
+  m_Name: StatsAsset
+  m_EditorClassIdentifier: 
+  stats:
+  - {fileID: -1068931024399423455}
+  - {fileID: 4423658390431904527}
+  - {fileID: -7622630726368748786}
+--- !u!114 &4423658390431904527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: o0elcm2v
+  m_EditorClassIdentifier: 
+  uniqueID: 0685cbd6742e406a936959fa5957701e
+  stat:
+    uniqueName: mana
+    shortName: XP
+    title:
+      content: Mana
+      postProcess: 0
+      translationID: 0
+    description:
+      content: Energy points
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 21300000, guid: 7b402a42e63980e49b73a87d74d49966, type: 3}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 0
+    formula: {fileID: 0}
+  isHidden: 1

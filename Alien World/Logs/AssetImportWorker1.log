@@ -471,3 +471,165 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31149.134220 seconds.
+  path: Assets/Gizmos/GameCreator/Core/Actions icon.png
+  artifactKey: Guid(4e068752fabff4700afface146ddef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/GameCreator/Core/Actions icon.png using Guid(4e068752fabff4700afface146ddef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4e1ca23dde338737628f26f2294569') in 0.703213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Gizmos/PivecLabs/UIComponents/Icons/Add Text Outline.png
+  artifactKey: Guid(5869dabb9c5b04eb28b6135d1a4c86d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PivecLabs/UIComponents/Icons/Add Text Outline.png using Guid(5869dabb9c5b04eb28b6135d1a4c86d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495a6645556c17fc1e6ce961244cb9fd') in 0.006942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gizmos/PivecLabs/UIComponents/Icons/Add Camera to Canvas.png
+  artifactKey: Guid(9f44db1afe7824e2cac1aa4c3672f0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PivecLabs/UIComponents/Icons/Add Camera to Canvas.png using Guid(9f44db1afe7824e2cac1aa4c3672f0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dcb52f9bfaacb0adddbb9bd70568ae') in 0.007272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Gizmos/PivecLabs/UIComponents/Icons/Add MiniMap Markers.png
+  artifactKey: Guid(f4195b7a29150492bb6e7755d475b868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PivecLabs/UIComponents/Icons/Add MiniMap Markers.png using Guid(f4195b7a29150492bb6e7755d475b868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db62ebe6b20f43e6a2e201d0806a3b17') in 0.005893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.627032 seconds.
+  path: Assets/Gizmos/PivecLabs/UIComponents/Icons/Add Video to Canvas.png
+  artifactKey: Guid(ed396ad13da664202bce7923d0df5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PivecLabs/UIComponents/Icons/Add Video to Canvas.png using Guid(ed396ad13da664202bce7923d0df5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cf33c707587894380b1e7b6ba6293f') in 0.062008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.409295 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/aim_ic.png
+  artifactKey: Guid(65dfde86f00fead4ba548cd757cb2b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/aim_ic.png using Guid(65dfde86f00fead4ba548cd757cb2b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadb1447c8737c952eacd3404d292cab') in 0.177331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.462771 seconds.
+  path: Assets/Plugins/GameCreator/Extra/Icons/Actions/Animate.png
+  artifactKey: Guid(797b8708954d847dcb77d73b6fb5d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Extra/Icons/Actions/Animate.png using Guid(797b8708954d847dcb77d73b6fb5d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6bccdb4551a2c7ea8abe283142b11e') in 0.010279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135512 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 3/armour_but.png
+  artifactKey: Guid(33097277a1580944d97c2634219ad128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 3/armour_but.png using Guid(33097277a1580944d97c2634219ad128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61c1b9fee478d6751fa9a2cc455905e') in 0.013973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.076873 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 2/armour_ic_1.png
+  artifactKey: Guid(60a52d46f80c32d4ea6d6d1323afcdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 2/armour_ic_1.png using Guid(60a52d46f80c32d4ea6d6d1323afcdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3febdeaf8c5e278ca0f76d5cf13e5bb1') in 0.010791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.404553 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_circled_triangle_ic.png
+  artifactKey: Guid(a25efece46daaf347b54ffc543eec8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_circled_triangle_ic.png using Guid(a25efece46daaf347b54ffc543eec8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036aeb1066a793a8191fd12f8269ba75') in 0.011352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.194169 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/LEVEL_SELECT/arrow_left_btn.png
+  artifactKey: Guid(e024ff6c7db7434438f6274dd482ecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/LEVEL_SELECT/arrow_left_btn.png using Guid(e024ff6c7db7434438f6274dd482ecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542179d1191879943a2f0cc877148862') in 0.013082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.264012 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_left_ic.png
+  artifactKey: Guid(77ed94a37809f294d9cedd3daccb8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_left_ic.png using Guid(77ed94a37809f294d9cedd3daccb8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7db2229b7f24d0914ef870de1dea56') in 0.011327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083479 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/LEVEL_SELECT/arrow_right_btn_pressed.png
+  artifactKey: Guid(47b280b755e47a743b8b9539de2190db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/LEVEL_SELECT/arrow_right_btn_pressed.png using Guid(47b280b755e47a743b8b9539de2190db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446c83f2fcd1080cabf91ac812be873d') in 0.009836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.437780 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_triangle_ic.png
+  artifactKey: Guid(1be1578410b395e4b8cfea5394cddb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_triangle_ic.png using Guid(1be1578410b395e4b8cfea5394cddb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa619428ad369ae236221ee58533464b') in 0.013772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004554 seconds.
+  path: Assets/Plugins/GameCreator/Stats/Icons/Conditions/Attribute Value.png
+  artifactKey: Guid(4ba6ffb32123d4658b1a824ded7db2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Stats/Icons/Conditions/Attribute Value.png using Guid(4ba6ffb32123d4658b1a824ded7db2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5ee54d9764eafb43ef51913ebeaf7e') in 0.009223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.257081 seconds.
+  path: Assets/Plugins/GameCreator/Extra/Icons/Actions/Audio Mixer Parameter.png
+  artifactKey: Guid(2cdbf910a99184d21b099093c6edd573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Extra/Icons/Actions/Audio Mixer Parameter.png using Guid(2cdbf910a99184d21b099093c6edd573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b16036a42855c75f6a78cff9c59573d') in 0.011437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.142613 seconds.
+  path: Assets/Gizmos/GameCreator/Core/AudioManager icon.png
+  artifactKey: Guid(af404b51b0f2e43c79e41236eac7c8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/GameCreator/Core/AudioManager icon.png using Guid(af404b51b0f2e43c79e41236eac7c8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9b5e7464d2628a1eed56b7a538b1c8') in 0.013704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.209623 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/4/heart_ic.png
+  artifactKey: Guid(06840f6b87e1d534095f3e81d21335bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/4/heart_ic.png using Guid(06840f6b87e1d534095f3e81d21335bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14315106ed05979b8021bbe9af4697db') in 0.009739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/5/heart_ic.png
+  artifactKey: Guid(25f63a0854ec37143af06cf50c891fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/5/heart_ic.png using Guid(25f63a0854ec37143af06cf50c891fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2b2176db05705fbe56d733dc2f33d7') in 0.007485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.809334 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/green_poison_potion_round.png
+  artifactKey: Guid(17bde44664cae6044b19ab03f9ac6674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/green_poison_potion_round.png using Guid(17bde44664cae6044b19ab03f9ac6674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceea59e285edc37a335cb6fdd767c38a') in 0.045090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.553654 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/6/blue_potion.png
+  artifactKey: Guid(8b1e83cdfc61a8445b66e39757ee313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/6/blue_potion.png using Guid(8b1e83cdfc61a8445b66e39757ee313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50c9f00afbfb3c81d5d2e3d4ee942a7') in 0.010073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_classic.png
+  artifactKey: Guid(dd6304efc9e18854ba7ba4f2ae5fa08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_classic.png using Guid(dd6304efc9e18854ba7ba4f2ae5fa08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d86eada3928d1f93f9c28b0efe123c') in 0.010456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_cone.png
+  artifactKey: Guid(8aedc9b72ce2e7e459d16eb50337fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_cone.png using Guid(8aedc9b72ce2e7e459d16eb50337fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85ae24639cb2f9ead539c0a34886a4e') in 0.010102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_2.png
+  artifactKey: Guid(7245572cf1a81b242a8d656e735a6b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_2.png using Guid(7245572cf1a81b242a8d656e735a6b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae75b0dbe45cb808bfc10752fa011a3') in 0.008499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 452.296085 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 1/healing_potion_but_1.png
+  artifactKey: Guid(8da584f05db9696439fd416563aa3eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 1/healing_potion_but_1.png using Guid(8da584f05db9696439fd416563aa3eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575b3a5ce3da0dba137fbbaaf324afae') in 0.046622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/7/health_bar_frame_2.png
+  artifactKey: Guid(de4e45e9724761b4989fa5b0644d3567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/7/health_bar_frame_2.png using Guid(de4e45e9724761b4989fa5b0644d3567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8911c8c49e60a4b30342499fe0a671e') in 0.018123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Example/Textures/health_bar.png
+  artifactKey: Guid(c0bc8f8c3184e984eb0c9a548b16ec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Example/Textures/health_bar.png using Guid(c0bc8f8c3184e984eb0c9a548b16ec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fcac0bcbde8b20108320cab0fe9a28') in 0.012627 seconds 
