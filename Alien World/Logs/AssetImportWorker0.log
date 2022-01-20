@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53295
+65367
 Successfully changed project path to: /Users/larbuckle/Documents/Unity/unity-demo/Alien World
 /Users/larbuckle/Documents/Unity/unity-demo/Alien World
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/larbuckle/Documents/Unity/unity-dem
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 127.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 110.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,53 +69,53 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56049
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56102
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002164 seconds.
+Registered in 0.001972 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 84.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.488 seconds
+- Completed reload, in  0.482 seconds
 Domain Reload Profiling:
-	ReloadAssembly (488ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (482ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (361ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (3ms)
-			SetupTypeCache (74ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (357ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (226ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (228ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
+				RefreshPlugins (85ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006904 seconds.
+Registered in 0.005660 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Area730] Started checking updates...
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -130,29 +130,29 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
+- Completed reload, in  0.800 seconds
 Domain Reload Profiling:
-	ReloadAssembly (789ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (663ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (315ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (311ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -161,13 +161,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.28 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.30 seconds
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4619 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (47.0 KB). Loaded Objects now: 5073.
-Memory consumption went from 331.5 MB to 331.5 MB.
-Total: 5.604208 ms (FindLiveObjects: 0.298959 ms CreateObjectMapping: 0.064916 ms MarkObjects: 5.145917 ms  DeleteObjects: 0.092292 ms)
+Unloading 4679 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (45.4 KB). Loaded Objects now: 5133.
+Memory consumption went from 333.9 MB to 333.9 MB.
+Total: 6.794917 ms (FindLiveObjects: 1.721958 ms CreateObjectMapping: 0.068166 ms MarkObjects: 4.684917 ms  DeleteObjects: 0.318916 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -181,479 +181,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 367793.883842 seconds.
-  path: Assets/Character Rigging/animations/WK_heavy_infantry_08_attack_B.FBX
-  artifactKey: Guid(0932505f83189174e9405ca64f635505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Rigging/animations/WK_heavy_infantry_08_attack_B.FBX using Guid(0932505f83189174e9405ca64f635505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5354e2d1b50f4b15857c622d1737bada') in 0.681087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Character Rigging/animations/WK_heavy_infantry_06_combat_walk.FBX
-  artifactKey: Guid(0cbd46aa8abdd9b409d3cfd4265bdd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Rigging/animations/WK_heavy_infantry_06_combat_walk.FBX using Guid(0cbd46aa8abdd9b409d3cfd4265bdd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2664da21559edc6eb43131e892f9d3f0') in 0.007732 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001632 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x2896ab000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 4.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Area730] Started checking updates...
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
-Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.745 seconds
-Domain Reload Profiling:
-	ReloadAssembly (746ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (579ms)
-			LoadAssemblies (42ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (248ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4596 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 5075.
-Memory consumption went from 333.8 MB to 333.8 MB.
-Total: 2.443375 ms (FindLiveObjects: 0.211584 ms CreateObjectMapping: 0.073292 ms MarkObjects: 2.126458 ms  DeleteObjects: 0.030041 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001551 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16f3fb000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Area730] Started checking updates...
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
-Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.874 seconds
-Domain Reload Profiling:
-	ReloadAssembly (875ms)
-		BeginReloadAssembly (183ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (621ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (260ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4596 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 5077.
-Memory consumption went from 334.4 MB to 334.4 MB.
-Total: 2.961750 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.099125 ms MarkObjects: 2.620000 ms  DeleteObjects: 0.019542 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002384 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16f36f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Area730] Started checking updates...
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
-Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.770 seconds
-Domain Reload Profiling:
-	ReloadAssembly (771ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (551ms)
-			LoadAssemblies (69ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (226ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4656 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 5139.
-Memory consumption went from 336.4 MB to 336.4 MB.
-Total: 2.485542 ms (FindLiveObjects: 0.356333 ms CreateObjectMapping: 0.085333 ms MarkObjects: 2.024000 ms  DeleteObjects: 0.019042 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001972 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16f36f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/larbuckle/Documents/Unity/unity-demo/Alien World/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Area730] Started checking updates...
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Area730.UpdatesManager.UpdatePlugins:CheckUpdates () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:50)
-Area730.UpdatesManager.UpdatePlugins:.cctor () (at Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs:43)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/Images/Area730/UpdateManager/Editor/UpdatesWindow.cs Line: 50)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
-Domain Reload Profiling:
-	ReloadAssembly (901ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (665ms)
-			LoadAssemblies (46ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
-			ReleaseScriptCaches (26ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (233ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4656 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 5141.
-Memory consumption went from 336.7 MB to 336.7 MB.
-Total: 3.995917 ms (FindLiveObjects: 0.167250 ms CreateObjectMapping: 0.075209 ms MarkObjects: 3.713417 ms  DeleteObjects: 0.038916 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 31149.129005 seconds.
-  path: Assets/Images/12Hearts.png
-  artifactKey: Guid(59bce126e6b550d4b839bee94e010c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/12Hearts.png using Guid(59bce126e6b550d4b839bee94e010c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba5a9a298b53520f48b562f2a7572b2') in 0.704463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Plugins/GameCreator/Extra/Icons/Actions/Add Component.png
-  artifactKey: Guid(5de211e2773394c6c81be4a96516e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Extra/Icons/Actions/Add Component.png using Guid(5de211e2773394c6c81be4a96516e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad374afa20578cd0ebb9cdba4d9da9e') in 0.010512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Gizmos/PivecLabs/UIComponents/Icons/Add Outline.png
-  artifactKey: Guid(4fb5418a103214f0180e80799e0a6b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gizmos/PivecLabs/UIComponents/Icons/Add Outline.png using Guid(4fb5418a103214f0180e80799e0a6b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec259673e20fc5c0bf74fefbb47bd89a') in 0.007773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Gizmos/PivecLabs/UIComponents/Icons/Add MiniMap TMP Labels.png
-  artifactKey: Guid(a8de8324eef1e4cd2b7712950c8b64bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gizmos/PivecLabs/UIComponents/Icons/Add MiniMap TMP Labels.png using Guid(a8de8324eef1e4cd2b7712950c8b64bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9cf4dbf7585a3ac6218c1546fccd10') in 0.006498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.625716 seconds.
-  path: Assets/Plugins/GameCreator/Extra/Icons/Actions/Add to List Variables.png
-  artifactKey: Guid(bd4066c9b2f40465386f04ac36d26100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Extra/Icons/Actions/Add to List Variables.png using Guid(bd4066c9b2f40465386f04ac36d26100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1baa3e23993a4dad110bc36321a5dae') in 0.056895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.412716 seconds.
-  path: Assets/Plugins/GameCreator/Extra/Icons/Actions/Adventure Camera Settings.png
-  artifactKey: Guid(353724b88fd2e4618beff11c3967eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Extra/Icons/Actions/Adventure Camera Settings.png using Guid(353724b88fd2e4618beff11c3967eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fa94a2795c1dd7c6fe513768a5fa86') in 0.012030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.141035 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/aim_ic_2.png
-  artifactKey: Guid(deab0550590e0bc4fabfa53aacdf4e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/aim_ic_2.png using Guid(deab0550590e0bc4fabfa53aacdf4e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85cfbc6e9feae189784ae045d599288') in 0.010396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/MoralisWeb3ApiSdk/Example/3rdParty/Lean/GUI/Examples/Media/AlertA.png
-  artifactKey: Guid(9b0a6bc822a2af5479e829d7a6d68a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoralisWeb3ApiSdk/Example/3rdParty/Lean/GUI/Examples/Media/AlertA.png using Guid(9b0a6bc822a2af5479e829d7a6d68a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b7cbcef0e27b71d122b845743a7e57') in 0.015234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.450064 seconds.
-  path: Assets/MoralisWeb3ApiSdk/Example/3rdParty/Lean/GUI/Examples/Media/AlertB.png
-  artifactKey: Guid(4ff1457c62fa68442a86f6f107cb0cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoralisWeb3ApiSdk/Example/3rdParty/Lean/GUI/Examples/Media/AlertB.png using Guid(4ff1457c62fa68442a86f6f107cb0cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250b209416803a60bf5366ebb2fa149d') in 0.012742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.132877 seconds.
-  path: Assets/Plugins/GameCreator/Extra/Icons/Actions/Animator Layer.png
-  artifactKey: Guid(378916d8965514715b964cdff7419e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Extra/Icons/Actions/Animator Layer.png using Guid(378916d8965514715b964cdff7419e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34d2a86fdee5d9e3e2be66f30df86d7') in 0.010011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.079828 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 3/armour_but_2.png
-  artifactKey: Guid(f39619b37c20c9849b598fdc966adc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 3/armour_but_2.png using Guid(f39619b37c20c9849b598fdc966adc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773e133ddef0607ab2d588f561db6232') in 0.011728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.402847 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 2/armour_ic_2.png
-  artifactKey: Guid(68f8c95ddd9c8b94d92fb2dd36596954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 2/armour_ic_2.png using Guid(68f8c95ddd9c8b94d92fb2dd36596954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb5d638110226d92424e5ff09277349') in 0.011545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.194623 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_ic.png
-  artifactKey: Guid(dff1af24fdcabd64bb7b427d6124447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_ic.png using Guid(dff1af24fdcabd64bb7b427d6124447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278f00075c65e5be849c307adf70226b') in 0.012886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.263920 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/LEVEL_SELECT/arrow_left_btn_pressed.png
-  artifactKey: Guid(76f66e10658ef5447a793d247e363344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/LEVEL_SELECT/arrow_left_btn_pressed.png using Guid(76f66e10658ef5447a793d247e363344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0fb0fac590146b1705b62621fee8d4') in 0.010996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.082207 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/LEVEL_SELECT/arrow_right_btn.png
-  artifactKey: Guid(8b27ea2c00f2a9a44bbcb69caa58c23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/LEVEL_SELECT/arrow_right_btn.png using Guid(8b27ea2c00f2a9a44bbcb69caa58c23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39affefb9e1bc864ffdbe52c6519ec43') in 0.010260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.437374 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_right_ic.png
-  artifactKey: Guid(2769c34efcb8aa6489ea77b07f632c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/arrow_right_ic.png using Guid(2769c34efcb8aa6489ea77b07f632c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2647202f50fe24e5a2aaaeceec2ca71e') in 0.015395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002862 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 1/arrows_but_1.png
-  artifactKey: Guid(fc49b64a6379307498225a29affeb514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 1/arrows_but_1.png using Guid(fc49b64a6379307498225a29affeb514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a482af35f4c61a43a615080b3be5d5b2') in 0.014644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.251296 seconds.
-  path: Assets/Plugins/GameCreator/Stats/Icons/Components/AttributeUI.png
-  artifactKey: Guid(218821815ca444a89b9dc92e6baac98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Stats/Icons/Components/AttributeUI.png using Guid(218821815ca444a89b9dc92e6baac98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe1c39199b414ce4d9579db82970144') in 0.016481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.138019 seconds.
-  path: Assets/Plugins/GameCreator/Extra/Icons/Actions/Audio Snapshot.png
-  artifactKey: Guid(70e2392b6aeaa4f89b82eef6209b164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/GameCreator/Extra/Icons/Actions/Audio Snapshot.png using Guid(70e2392b6aeaa4f89b82eef6209b164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21682452c960398c2d1a0f3f91a7128b') in 0.012845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.209991 seconds.
-  path: Assets/MoralisWeb3ApiSdk/Example/3rdParty/Lean/Common/Examples/Textures/Heart.png
-  artifactKey: Guid(6904a5e63b2f0674e90fe676a13ed777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoralisWeb3ApiSdk/Example/3rdParty/Lean/Common/Examples/Textures/Heart.png using Guid(6904a5e63b2f0674e90fe676a13ed777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0ca5d7319a1d4467662af621d2f65b') in 0.020145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.358956 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 7/back_arrow_left_but_pressed.png
-  artifactKey: Guid(0d03e99ce5ee7b047886238812b1edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 7/back_arrow_left_but_pressed.png using Guid(0d03e99ce5ee7b047886238812b1edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e6163a75495ff3d3a8044b1430f1e6') in 0.039012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.397873 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/green_poison_potion_cone.png
-  artifactKey: Guid(0372cfb36e91cb14f97c46e94ffe80c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/green_poison_potion_cone.png using Guid(0372cfb36e91cb14f97c46e94ffe80c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892b80dc60166af05962fb6bf536852d') in 0.010489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.600168 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/5/blue_potion.png
-  artifactKey: Guid(a37f6e8d51e410d44afbbeb7050385ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/5/blue_potion.png using Guid(a37f6e8d51e410d44afbbeb7050385ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd788f6fd7cead81678e3a5cd66625b5') in 0.010344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_round.png
-  artifactKey: Guid(7b402a42e63980e49b73a87d74d49966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_round.png using Guid(7b402a42e63980e49b73a87d74d49966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bddba08232280f0f84e4c6fa6e9d2f') in 0.011084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_1.png
-  artifactKey: Guid(5b1ed0907311fb34c8a35de1b99242be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/blue_potion_1.png using Guid(5b1ed0907311fb34c8a35de1b99242be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36327837fb1e35b3f8caee00da0c5b62') in 0.009342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/blue_potion_ic.png
-  artifactKey: Guid(122edb83df56f0f46a791b539a46507e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/ICONS 1/blue_potion_ic.png using Guid(122edb83df56f0f46a791b539a46507e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f3f94706dc58b86fe5af45debb44af') in 0.007578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.339107 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/5/empty_potion_place.png
-  artifactKey: Guid(ec27554f4947c4240a6bb4592951363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/5/empty_potion_place.png using Guid(ec27554f4947c4240a6bb4592951363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a29dc48229d2539e89601b0c0e02f1') in 0.009492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.252969 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/green_potion_cone.png
-  artifactKey: Guid(db6ab4dab9d1da243be8403b13e246d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/POTIONS 1/green_potion_cone.png using Guid(db6ab4dab9d1da243be8403b13e246d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b9fff9ce89c8250c72a04e2b507e13') in 0.010669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 448.672573 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/2/heal_potion.png
-  artifactKey: Guid(f33eb9b1e9ef8084db50e364d69a87dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/2/heal_potion.png using Guid(f33eb9b1e9ef8084db50e364d69a87dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd8c8a00975c50d9409917c49abef1a') in 0.046337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/7/health_bar_frame.png
-  artifactKey: Guid(e52ea8400739e1e4684ca09a1e3ea6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BARS/7/health_bar_frame.png using Guid(e52ea8400739e1e4684ca09a1e3ea6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604effb74d2c3c3933eb1c296bbd627f') in 0.018466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 1/healing_potion_but_2.png
-  artifactKey: Guid(88e41c9ed45a75049b07b4cc1529524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 1/healing_potion_but_2.png using Guid(88e41c9ed45a75049b07b4cc1529524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e0a8c46912277800bbeb0407814c21') in 0.017046 seconds 
+  Time since last request: 445760.439052 seconds.
+  path: Assets/Plugins/GameCreator/Stats/Icons/Components/Stats.png
+  artifactKey: Guid(b8c97d211424948b9a5d6e2cf6f9a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Stats/Icons/Components/Stats.png using Guid(b8c97d211424948b9a5d6e2cf6f9a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c091697b7815b99177c88bb6963e73e') in 0.160054 seconds 
