@@ -179,3 +179,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 446060.271613 seconds.
+  path: Assets/Plugins/GameCreator/StatsExamples/Formulas/Experience.asset
+  artifactKey: Guid(e56e5e077b7f146958ae147b18e9e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/StatsExamples/Formulas/Experience.asset using Guid(e56e5e077b7f146958ae147b18e9e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e20b1e1ac14aaed73931bf1ab9b49') in 0.265751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Plugins/GameCreator/StatsExamples/Formulas/Vitality.asset
+  artifactKey: Guid(de07213b159974cdaa6112937b8c1f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/StatsExamples/Formulas/Vitality.asset using Guid(de07213b159974cdaa6112937b8c1f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e4a83bb4c6583db9642a32ddec80f2') in 0.001926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugins/GameCreator/StatsExamples/Formulas/Fireball.asset
+  artifactKey: Guid(ac4df092b9aba43d5acea6bb83c0e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/StatsExamples/Formulas/Fireball.asset using Guid(ac4df092b9aba43d5acea6bb83c0e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c245969061c6e8d2c1850d9222ffaa8') in 0.001109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 302.836308 seconds.
+  path: Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 6/square_red_but_frame.png
+  artifactKey: Guid(d234ce2f784598e4bb30e3aca48a5231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Area730/Ultimate Game UI/Sliced/BUTTONS 6/square_red_but_frame.png using Guid(d234ce2f784598e4bb30e3aca48a5231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466d16c699f28c2975d130255ecb1482') in 0.177659 seconds 
