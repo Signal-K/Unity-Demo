@@ -185,3 +185,39 @@ Received Import Request.
   path: Assets/Plugins/GameCreator/Stats/Icons/Components/Stats.png
   artifactKey: Guid(b8c97d211424948b9a5d6e2cf6f9a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Plugins/GameCreator/Stats/Icons/Components/Stats.png using Guid(b8c97d211424948b9a5d6e2cf6f9a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c091697b7815b99177c88bb6963e73e') in 0.160054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.113301 seconds.
+  path: Assets/Plugins/GameCreator/StatsExamples/Assets/Textures/Poison.png
+  artifactKey: Guid(dbfff201f113d4595885a21d580e9aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/StatsExamples/Assets/Textures/Poison.png using Guid(dbfff201f113d4595885a21d580e9aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407c49af5f32e03f62d4589c41a1fd60') in 0.064449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.451407 seconds.
+  path: Assets/Plugins/GameCreator/StatsExamples/Formulas/Dexterity.asset
+  artifactKey: Guid(bb4d6d1cb60e84e2698ab67823122506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/StatsExamples/Formulas/Dexterity.asset using Guid(bb4d6d1cb60e84e2698ab67823122506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f0044646c0fad1a71ec172899036dc') in 0.264013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Plugins/GameCreator/StatsExamples/Formulas/Level.asset
+  artifactKey: Guid(10f6fd2bc225f47b5a7162abeeaf519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/StatsExamples/Formulas/Level.asset using Guid(10f6fd2bc225f47b5a7162abeeaf519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7429ecde33af4f59428dbc5d242d10a3') in 0.001933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/GameCreator/StatsExamples/Formulas/Wisdom.asset
+  artifactKey: Guid(da59f1dfea6c24315ba0fde12e3980a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/StatsExamples/Formulas/Wisdom.asset using Guid(da59f1dfea6c24315ba0fde12e3980a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f612879b6b7cccabf3c2b03193b4fe20') in 0.001429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/GameCreator/StatsExamples/Formulas/NextLevel.asset
+  artifactKey: Guid(c39abeefbdc6348749bc63607f166632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/StatsExamples/Formulas/NextLevel.asset using Guid(c39abeefbdc6348749bc63607f166632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af54e562cd87be1164b485d9901e05a') in 0.001728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 302.834387 seconds.
+  path: Assets/Plugins/GameCreator/StatsExamples/Assets/Textures/Square.png
+  artifactKey: Guid(f90e7b83268784c50bcd697e6532c5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/StatsExamples/Assets/Textures/Square.png using Guid(f90e7b83268784c50bcd697e6532c5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71531cd1d0396ceeee76de416a599ab4') in 0.189978 seconds 
