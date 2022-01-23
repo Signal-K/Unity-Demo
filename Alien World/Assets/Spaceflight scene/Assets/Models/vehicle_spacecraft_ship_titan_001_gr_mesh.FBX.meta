@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 66e12e9d99015ec499e39e3162a083e2
+timeCreated: 1483712816
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: backGunPipeLeft
+    100002: backGunPipeRight
+    100004: backGunRootLeft
+    100006: backGunRootRight
+    100008: frontGunPipeLeft
+    100010: frontGunPipeRight
+    100012: frontGunRootLeft
+    100014: frontGunRootRight
+    100016: //RootNode
+    100018: vehicle_spacecraft_ship_titan_001_gr_element_000
+    100020: vehicle_spacecraft_ship_titan_001_gr_element_001_01
+    100022: vehicle_spacecraft_ship_titan_001_gr_element_001_02
+    100024: vehicle_spacecraft_ship_titan_001_gr_element_002_01
+    100026: vehicle_spacecraft_ship_titan_001_gr_element_002_02
+    100028: vehicle_spacecraft_ship_titan_001_gr_element_003_01
+    100030: vehicle_spacecraft_ship_titan_001_gr_element_003_02
+    100032: vehicle_spacecraft_ship_titan_001_gr_element_003_02 1
+    100034: vehicle_spacecraft_ship_titan_001_gr_element_004_01
+    100036: vehicle_spacecraft_ship_titan_001_gr_element_004_02
+    400000: backGunPipeLeft
+    400002: backGunPipeRight
+    400004: backGunRootLeft
+    400006: backGunRootRight
+    400008: frontGunPipeLeft
+    400010: frontGunPipeRight
+    400012: frontGunRootLeft
+    400014: frontGunRootRight
+    400016: //RootNode
+    400018: vehicle_spacecraft_ship_titan_001_gr_element_000
+    400020: vehicle_spacecraft_ship_titan_001_gr_element_001_01
+    400022: vehicle_spacecraft_ship_titan_001_gr_element_001_02
+    400024: vehicle_spacecraft_ship_titan_001_gr_element_002_01
+    400026: vehicle_spacecraft_ship_titan_001_gr_element_002_02
+    400028: vehicle_spacecraft_ship_titan_001_gr_element_003_01
+    400030: vehicle_spacecraft_ship_titan_001_gr_element_003_02
+    400032: vehicle_spacecraft_ship_titan_001_gr_element_003_02 1
+    400034: vehicle_spacecraft_ship_titan_001_gr_element_004_01
+    400036: vehicle_spacecraft_ship_titan_001_gr_element_004_02
+    2300000: backGunPipeLeft
+    2300002: backGunPipeRight
+    2300004: backGunRootLeft
+    2300006: backGunRootRight
+    2300008: frontGunPipeLeft
+    2300010: frontGunPipeRight
+    2300012: frontGunRootLeft
+    2300014: frontGunRootRight
+    2300016: //RootNode
+    2300018: vehicle_spacecraft_ship_titan_001_gr_element_000
+    2300020: vehicle_spacecraft_ship_titan_001_gr_element_001_01
+    2300022: vehicle_spacecraft_ship_titan_001_gr_element_001_02
+    2300024: vehicle_spacecraft_ship_titan_001_gr_element_002_01
+    2300026: vehicle_spacecraft_ship_titan_001_gr_element_002_02
+    2300028: vehicle_spacecraft_ship_titan_001_gr_element_003_01
+    2300030: vehicle_spacecraft_ship_titan_001_gr_element_003_02
+    2300032: vehicle_spacecraft_ship_titan_001_gr_element_003_02 1
+    2300034: vehicle_spacecraft_ship_titan_001_gr_element_004_01
+    2300036: vehicle_spacecraft_ship_titan_001_gr_element_004_02
+    3300000: backGunPipeLeft
+    3300002: backGunPipeRight
+    3300004: backGunRootLeft
+    3300006: backGunRootRight
+    3300008: frontGunPipeLeft
+    3300010: frontGunPipeRight
+    3300012: frontGunRootLeft
+    3300014: frontGunRootRight
+    3300016: //RootNode
+    3300018: vehicle_spacecraft_ship_titan_001_gr_element_000
+    3300020: vehicle_spacecraft_ship_titan_001_gr_element_001_01
+    3300022: vehicle_spacecraft_ship_titan_001_gr_element_001_02
+    3300024: vehicle_spacecraft_ship_titan_001_gr_element_002_01
+    3300026: vehicle_spacecraft_ship_titan_001_gr_element_002_02
+    3300028: vehicle_spacecraft_ship_titan_001_gr_element_003_01
+    3300030: vehicle_spacecraft_ship_titan_001_gr_element_003_02
+    3300032: vehicle_spacecraft_ship_titan_001_gr_element_003_02 1
+    3300034: vehicle_spacecraft_ship_titan_001_gr_element_004_01
+    3300036: vehicle_spacecraft_ship_titan_001_gr_element_004_02
+    4300000: vehicle_spacecraft_ship_titan_001_gr
+    4300002: frontGunRootLeft
+    4300004: frontGunPipeLeft
+    4300006: frontGunRootRight
+    4300008: frontGunPipeRight
+    4300010: backGunRootLeft
+    4300012: backGunPipeLeft
+    4300014: backGunRootRight
+    4300016: backGunPipeRight
+    4300018: vehicle_spacecraft_ship_titan_001_gr_element_004_01
+    4300020: vehicle_spacecraft_ship_titan_001_gr_element_003_02
+    4300022: vehicle_spacecraft_ship_titan_001_gr_element_003_02
+    4300024: vehicle_spacecraft_ship_titan_001_gr_element_003_01
+    4300026: vehicle_spacecraft_ship_titan_001_gr_element_002_02
+    4300028: vehicle_spacecraft_ship_titan_001_gr_element_002_01
+    4300030: vehicle_spacecraft_ship_titan_001_gr_element_001_02
+    4300032: vehicle_spacecraft_ship_titan_001_gr_element_001_01
+    4300034: vehicle_spacecraft_ship_titan_001_gr_element_000
+    4300036: vehicle_spacecraft_ship_titan_001_gr_element_004_02
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
