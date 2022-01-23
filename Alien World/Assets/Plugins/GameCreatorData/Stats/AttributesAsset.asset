@@ -40,10 +40,10 @@ MonoBehaviour:
       postProcess: 0
       translationID: 0
     icon: {fileID: 21300000, guid: b8c97d211424948b9a5d6e2cf6f9a641, type: 3}
-    color: {r: 0.8666667, g: 0.20392156, b: 0.26044643, a: 1}
+    color: {r: 0.735849, g: 0, b: 0.060957707, a: 1}
     minValue: 0
     stat: {fileID: 114175997067868362, guid: 0431ef4462ebb4e059a79b2feeb54f7c, type: 2}
-    percent: 1
+    percent: 0.25
 --- !u!114 &114445033182228404
 MonoBehaviour:
   m_ObjectHideFlags: 0
