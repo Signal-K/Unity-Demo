@@ -107,47 +107,22 @@ MonoBehaviour:
       - Assets/Plugins/GameCreatorData/Core/Variables/
       - Assets/Plugins/GameCreatorData/Core/Resources/GameCreator/Databases/DatabaseGeneral.asset
   - module:
-      moduleID: com.gamecreator.examples.stats
+      moduleID: com.piveclabs.modules.uicomponents
       version:
         major: 1
-        minor: 1
-        patch: 3
-      displayName: Stats Examples
-      description: Example scenes that show some of the most common cases using the
-        Stats module
-      category: Examples
-      dependencies:
-      - moduleID: com.gamecreator.module.stats
-        version:
-          major: 1
-          minor: 1
-          patch: 1
-      tags:
-      - examples
-      authorName: Marti-Joan Nogue Coll
-      authorMail: marti@catsoft-studios.com
-      authorSite: https://gamecreator.io
-      includesData: 1
-      codePaths:
-      - Assets/Plugins/GameCreator/StatsExamples/
-      dataPaths:
-      - Assets/Plugins/GameCreatorData/Stats/
-  - module:
-      moduleID: com.gamecreator.module.stats
-      version:
-        major: 1
-        minor: 1
-        patch: 5
-      displayName: Stats
-      description: Easily design game progression with unconstrained stat systems
-      category: Modules
+        minor: 6
+        patch: 1
+      displayName: UI Components Module
+      description: UI Components Module for Game Creator
+      category: UI Components
       dependencies: []
       tags:
-      - module
-      authorName: Marti-Joan Nogue Coll
-      authorMail: marti@catsoft-studios.com
-      authorSite: https://gamecreator.io
+      - UI Components
+      - game creator
+      authorName: Dr Paul Pivec
+      authorMail: paul.pivec@piveclabs.com
+      authorSite: https://www.piveclabs.com
       includesData: 0
       codePaths:
-      - Assets/Plugins/GameCreator/Stats/
+      - Assets/PivecLabs/UIComponents/
       dataPaths: []
