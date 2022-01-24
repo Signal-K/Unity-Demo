@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -47,4 +47,4 @@ public class WebLoginCustom: MonoBehaviour {
         // Move to next scene
         SceneManager.LoadScene(SceneManager.GetActivated().buildIndex + 1);
     }
-}
+}*/
