@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.lootlocker.lootlockersdk": {
-      "version": "file:/Users/larbuckle/Documents/unity-sdk",
+      "version": "file:../api/Lootlocker",
       "depth": 0,
       "source": "local",
       "dependencies": {
