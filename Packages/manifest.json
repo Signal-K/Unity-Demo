@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.dilmergames.core": "file:../packages-unity/com.dilmergames.core",
     "com.lootlocker.lootlockersdk": "file:../api/unity-sdk",
     "com.unity.cinemachine": "2.8.4",
     "com.unity.collab-proxy": "1.15.4",
@@ -7,6 +8,7 @@
     "com.unity.ide.visualstudio": "2.0.12",
     "com.unity.ide.vscode": "1.2.4",
     "com.unity.inputsystem": "1.2.0",
+    "com.unity.multiplayer.tools": "1.0.0-pre.2",
     "com.unity.netcode.gameobjects": "1.0.0-pre.5",
     "com.unity.test-framework": "1.1.29",
     "com.unity.textmeshpro": "3.0.6",
