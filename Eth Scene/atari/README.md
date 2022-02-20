@@ -13,8 +13,15 @@ Dependencies:
 * Keras-rl2
 
 ## Space Invaders General
+In two parts:
+
+### Python
 Dependencies:
 * Pygame
+
+### Javascript
+Dependencies:
+* Phaser.js
 
 Github Issue: [#24](https://github.com/signal-k/unity-demo/issues/24)
 
