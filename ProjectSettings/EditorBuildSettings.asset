@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/EverythingEth/Web3Unity/Scenes/WebLogin.unity
     guid: a1b2001e782bb47659732d7e2bcdc35f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Photon/Lobby.unity
     guid: eff37cdf5677442ff800d7e72d0acc8d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Photon/Loading.unity
     guid: 368b09af2b76f457dadbab25962b295e
   m_configObjects:
